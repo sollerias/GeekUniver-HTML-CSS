@@ -34,7 +34,7 @@ body{
 
 .main-picture{
   width: 1920px;
-  height: 1280px;
+  height: 600px;
   background-image: url(img/fashion_img.png);
   background-position-x: center;
   background-repeat: no-repeat;
@@ -50,25 +50,48 @@ body{
 }*/
 .content-image{
     margin: 10px;
+    width:210px;
+}
+.content-image__photo{
+    display: inline-block;
+    width: 100px;
+    /*border: 1px solid red;*/
+
 }
 .content-image__photo_1{
-    display: block;
-
-    float: left;
+    position: relative;
+    margin-right:10px;
+    margin-bottom: 10px;
+    left: 600px;
+    width: 280px;
+	height: 271px;
+    margin: 10px;
+	background-color: #000000;
 
 }
 .content-image__photo_2{
-
-    float: left;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 280px;
+    height: 130.5px;
+    border: 1px solid red;
 }
 .content-image__photo_3{
-
-    float: right;
+    position: absolute;
+    top: 280px;
+    width: 280px;
+    height: 130.5px;
+    background-color: #dadad2;
 }
 
 .content-image__photo_4{
-    position: bottom;
-    float: right;
+    position: absolute;
+    left: 300px;
+    top: 140px;
+    width: 280px;
+	height: 271px;
+    border: 1px solid red;
 }
 
 .group-footer{
