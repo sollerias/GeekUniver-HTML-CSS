@@ -2,6 +2,7 @@ body{
     font-family: Lato;
 }
 .group-header{
+    text-align: center;
     display:inline-block;
     font-weight: 300;
 }
@@ -17,6 +18,7 @@ body{
 
 .category-list-menu{
     font-size: 0;
+    text-align: center;
 }
 .category-list-menu__list{
 
@@ -31,7 +33,42 @@ body{
 }
 
 .main-picture{
-    
+  width: 1920px;
+  height: 1280px;
+  background-image: url(img/fashion_img.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+
+}
+
+/*.main-picture p{
+  color:white;
+ padding-top: 110px;
+ padding-left: 50px;
+
+}*/
+.content-image{
+    margin: 10px;
+}
+.content-image__photo_1{
+    display: block;
+
+    float: left;
+
+}
+.content-image__photo_2{
+
+    float: left;
+}
+.content-image__photo_3{
+
+    float: right;
+}
+
+.content-image__photo_4{
+    position: bottom;
+    float: right;
 }
 
 .group-footer{
