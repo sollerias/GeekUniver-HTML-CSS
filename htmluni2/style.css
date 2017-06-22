@@ -1,0 +1,105 @@
+body{
+    font-family: Lato;
+}
+.group-header{
+    text-align: center;
+    display:inline-block;
+    font-weight: 300;
+}
+.logo__last-letter{
+    color:#f16d7f;
+
+}
+
+.dropdown-menu li{
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.category-list-menu{
+    font-size: 0;
+    text-align: center;
+}
+.category-list-menu__list{
+
+    color: #222222;
+    width: 10%;
+    display: inline-block;
+    /*box-sizing: border-box;*/
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    /*border: 1px solid black;*/
+}
+
+.main-picture{
+  width: 1920px;
+  height: 600px;
+  background-image: url(img/fashion_img.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+
+}
+
+/*.main-picture p{
+  color:white;
+ padding-top: 110px;
+ padding-left: 50px;
+
+}*/
+.content-image{
+    margin: 10px;
+    width:210px;
+}
+.content-image__photo{
+    display: inline-block;
+    width: 100px;
+    /*border: 1px solid red;*/
+
+}
+.content-image__photo_1{
+    position: relative;
+    margin-right:10px;
+    margin-bottom: 10px;
+    left: 600px;
+    width: 280px;
+	height: 271px;
+    margin: 10px;
+	background-color: #000000;
+
+}
+.content-image__photo_2{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 280px;
+    height: 130.5px;
+    border: 1px solid red;
+}
+.content-image__photo_3{
+    position: absolute;
+    top: 280px;
+    width: 280px;
+    height: 130.5px;
+    background-color: #dadad2;
+}
+
+.content-image__photo_4{
+    position: absolute;
+    left: 300px;
+    top: 140px;
+    width: 280px;
+	height: 271px;
+    border: 1px solid red;
+}
+
+.group-footer{
+	height: 39.5px;
+    background-color: #e6e6e6;
+}
+.group-footer__footer{
+
+    text-transform: capitalize;
+    color: #7a7a7a;
+}
