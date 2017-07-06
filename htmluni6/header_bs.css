@@ -1,0 +1,87 @@
+body{
+    font-family: Lato;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600');
+*{
+    font-family: "Lato", sans-serif;
+}
+.header__logo-img a{
+    text-decoration: none;
+}
+.header{
+    margin-top: 25px;
+}
+/*.container__header-row{
+    border-bottom: 1px solid #ececec;
+}*/
+.header__logo-img{
+    /*border: 1px solid red;*/
+}
+.header__logo-txt{
+    color: #a4a4a4;
+    font-weight: lighter;
+    margin: -25% 0 0 40%;
+    /*border: 1px solid red;*/
+}
+.logo__last-letter{
+    color:#f16d7f;
+    font-weight: 600;
+}
+.input-group__main{
+    margin-bottom: 4%;
+}
+
+/* начал что-то переопределять*/
+.input-group__main .header__browse-btn > .btn{
+    /*padding: 0;
+    margin:  0;
+    background: none;*/
+    /*color: #000;*/
+    border: 1px solid green;
+}
+/* закончил что-то переопределять*/
+
+.input-group-addon__search-icon{
+    color: #a4a4a4;
+    background-color: #ffffff;
+}
+.input-group__dropbtn-acc{
+    background-color: #f16d7f;
+    color: white;
+}
+.header__goods-menu-txt{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 3%;
+    padding: 0 -50%;
+    /*border: 1px solid red;*/
+}
+.header__goods-menu-txt_women{
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border: 1px solid red;*/
+}
+.header__goods-menu-txt_accessories{
+    padding-right: 10%;
+    /*border: 1px solid red;*/
+}
+.header__category:hover{
+    color: red;
+}
+.arrivals{
+    height: 150px;
+    background-color: #f8f3f4;
+    border-bottom: 1px solid #ececec;
+}
+.arrivals__new{
+    padding-top: 3%;
+    padding-left: 10%;
+    text-transform: uppercase;
+    color: #f27f8f;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.img-fluid{
+    max-width: 100%;
+}
