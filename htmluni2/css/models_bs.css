@@ -1,0 +1,51 @@
+body{
+    font-family: Lato;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600');
+*{
+    font-family: "Lato", sans-serif;
+}
+.container__models{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+.container__models p{
+    padding-top: 130%;
+}
+.container__models .price{
+    font-size: 16px;
+    color: #f16d7f;
+}
+.container__models-1{
+    width:260px;
+    height: 280px;
+    background-image: url(../img/singlepage/model1.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+
+}
+.container__models-2{
+    width:260px;
+    height: 280px;
+    background-image: url(../img/singlepage/model1.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+.container__models-3{
+    width:260px;
+    height: 280px;
+    background-image: url(../img/singlepage/model1.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+.container__models-4{
+    width:260px;
+    height: 280px;
+    background-image: url(../img/singlepage/model1.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}

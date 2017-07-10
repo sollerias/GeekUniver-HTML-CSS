@@ -1,0 +1,97 @@
+body{
+    font-family: Lato;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600');
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.footer{
+    margin-top: 5%;
+}
+.container__footer{
+    margin-bottom: 2%;
+}
+.container__footer__logo p{
+    margin-top:30px;
+    color: #a8a8a8;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+
+}
+.footer__logo a{
+    text-decoration: none;
+    color: #989899;
+    font-weight: lighter;
+}
+.footer__logo-link{
+    font-weight: lighter;
+}
+.footer__txt{
+    margin-left: 5%;
+    font-weight: lighter;
+}
+.container__footer_list h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f16d7f;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.container__footer_list ul li{
+    list-style: none;
+    line-height: 59px;
+    text-transform: capitalize;
+    color: #999999;
+}
+.container__footer_list ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+.container__footer_list a:link{
+    color: #999999;
+}
+.container__footer_list a:visited{
+    color: #616162;
+}
+.container__footer_list a:hover{
+    color: #f16d7f;
+}
+.container__footer_list a:active{
+    color: #999999;
+}
+.container__footer_company > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #999999;
+}
+.container-fluid__footer{
+    height: 80px;
+    background-color: #e6e6e6;
+}
+.container__footer_rights > p{
+    color: #7a7a7a;
+    text-transform: capitalize;
+    margin-top: 12%;
+}
+.container__footer_social{
+    margin-top: 12%;
+}
+.container__footer_social > a{
+    text-decoration: none;
+    color: white;
+}
+
+.container__footer_social > a:visited{
+    color: white;
+}
+.container__footer_social > a:hover{
+    color: #f16d7f;
+}
